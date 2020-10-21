@@ -14,15 +14,19 @@ module.exports = app => {
 
   // must require `req` params
   app.passport.use('google', new Strategy(config, (req, accessToken, refreshToken, params, profile, done) => {
+    const email = profile.emails && profile.emails[0] && profile.emails[0].value;
+    const photo = profile.photos && profile.photos[0] && profile.photos[0].value;
+    const name = email.spilt('@')[0];
+
     // format user
     const user = {
       provider: 'google',
       id: profile.id,
-      email: profile.emails && profile.emails[0] && profile.emails[0].value,
-      givenName: profile.name.givenName,
-      familyName: profile.name.familyName,
-      displayName: profile.displayName,
-      photo: profile.photos && profile.photos[0] && profile.photos[0].value,
+      email,
+      givenName: name,
+      familyName: '',
+      displayName: profile.displayName || name,
+      photo,
       accessToken,
       refreshToken,
       params,
