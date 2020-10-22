@@ -11,7 +11,7 @@
 [npm-url]: https://npmjs.org/package/egg-passport-google
 [travis-image]: https://img.shields.io/travis/eggjs-community/egg-passport-google.svg?style=flat-square
 [travis-url]: https://travis-ci.org/eggjs-community/egg-passport-google
-[codecov-image]: https://img.shields.io/codecov/c/github/sinceggjs-communityhang/egg-passport-google.svg?style=flat-square
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs-community/egg-passport-google.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/eggjs-community/egg-passport-google?branch=master
 [david-image]: https://img.shields.io/david/eggjs-community/egg-passport-google.svg?style=flat-square
 [david-url]: https://david-dm.org/eggjs-community/egg-passport-google
