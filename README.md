@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-passport-google.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-passport-google
-[travis-image]: https://img.shields.io/travis/sinchang/egg-passport-google.svg?style=flat-square
-[travis-url]: https://travis-ci.org/sinchang/egg-passport-google
-[codecov-image]: https://img.shields.io/codecov/c/github/sinchang/egg-passport-google.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/sinchang/egg-passport-google?branch=master
-[david-image]: https://img.shields.io/david/sinchang/egg-passport-google.svg?style=flat-square
-[david-url]: https://david-dm.org/sinchang/egg-passport-google
+[travis-image]: https://img.shields.io/travis/eggjs-community/egg-passport-google.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs-community/egg-passport-google
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs-community/egg-passport-google.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs-community/egg-passport-google?branch=master
+[david-image]: https://img.shields.io/david/eggjs-community/egg-passport-google.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs-community/egg-passport-google
 [snyk-image]: https://snyk.io/test/npm/egg-passport-google/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-passport-google
 [download-image]: https://img.shields.io/npm/dm/egg-passport-google.svg?style=flat-square

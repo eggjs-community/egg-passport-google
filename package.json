@@ -51,12 +51,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sinchang/egg-passport-google.git"
+    "url": "git+https://github.com/eggjs-community/egg-passport-google.git"
   },
   "bugs": {
-    "url": "https://github.com/sinchang/egg-passport-google/issues"
+    "url": "https://github.com/eggjs-community/egg-passport-google/issues"
   },
-  "homepage": "https://github.com/sinchang/egg-passport-google#readme",
+  "homepage": "https://github.com/eggjs-community/egg-passport-google#readme",
   "author": "sinchang",
   "license": "MIT"
 }
