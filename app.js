@@ -16,16 +16,15 @@ module.exports = app => {
   app.passport.use('google', new Strategy(config, (req, accessToken, refreshToken, params, profile, done) => {
     const email = profile.emails && profile.emails[0] && profile.emails[0].value;
     const photo = profile.photos && profile.photos[0] && profile.photos[0].value;
-    const name = email.spilt('@')[0];
 
     // format user
     const user = {
       provider: 'google',
       id: profile.id,
       email,
-      givenName: name,
-      familyName: '',
-      displayName: profile.displayName || name,
+      givenName: profile.name && profile.name.givenName,
+      familyName: profile.name && profile.name.familyName,
+      displayName: profile.displayName,
       photo,
       accessToken,
       refreshToken,
